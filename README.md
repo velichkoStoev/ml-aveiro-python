@@ -69,8 +69,8 @@ matrixB - 20
 matrixB ** 2
 
 # Matrix Operations
-# let's create two 2D matrices with random values
 
+# let's create two 2D matrices with random values
 matrixX = np.random.random_integers(0,10, (3,3))
 matrixY = np.random.random_integers(0,10, (3,3)) 
 
@@ -81,17 +81,14 @@ matrixZ = matrixX + matrixY
 matrixZ = matrixX - matrixY
 
 # multiplication
-
 matrixZ = matrixX * matrixY
 
 # or
 matrixZ = np.dot(matrixX, matrixY)
 
 # transpose
-
 matrixZ = np.matrix.transpose(matrixX)
 
 # find the determinant of a matrix
-
 det = np.linalg.det(matrixX)
 ```
