@@ -34,4 +34,71 @@ Check if Pip is installed by running `pip -V` in the Terminal. If it's not, run 
 ## Matrix operations with NumPy
 
 Let's explore the functionality of NumPy. 
-Check the file `matrices.py` and run the examples there one by one. You can use the Python prompt in the Terminal/Command Prompt, IDLE (the default Python shell) or your favourite text editor to write and execute Python code. 
+Check the examples below and run them one by one. You can use the Python prompt in the Terminal/Command Prompt, IDLE (the default Python shell) or your favourite text editor to write and execute Python code. 
+
+```python
+import numpy as np
+
+# create a simple 2x2 matrix using NumPy
+
+m = np.matrix('1 2; 3 4');
+
+# create a vector (one-dimensional array)
+
+v = np.array([1,3,2])
+
+# get matrix's/vector's dimension
+
+v.shape
+
+# turn the vector to 2D matrix
+
+v = v[None, :]
+v.shape
+
+# another way to create a matrix
+
+matrixA = np.array([1,1,2,3,5,8,13,21,34]).reshape(3,3)
+
+# creating a vector as an arithmetic series
+
+vectorB = np.arange(0,20,2)
+
+# reshape it to a matrix
+
+matrixB = vectorB.reshape(2,5)
+
+# you can perform +,-,*,/** operations using a scalar and a matrix
+matrixB * 2
+matrixB / 2
+matrixB + 10
+matrixB - 20
+matrixB ** 2
+
+# Matrix Operations
+# let's create two 2D matrices with random values
+
+matrixX = np.random.random_integers(0,10, (3,3))
+matrixY = np.random.random_integers(0,10, (3,3)) 
+
+# addition
+matrixZ = matrixX + matrixY
+
+# subtractions
+matrixZ = matrixX - matrixY
+
+# multiplication
+
+matrixZ = matrixX * matrixY
+
+# or
+matrixZ = np.dot(matrixX, matrixY)
+
+# transpose
+
+matrixZ = np.matrix.transpose(matrixX)
+
+# find the determinant of a matrix
+
+det = np.linalg.det(matrixX)
+```
