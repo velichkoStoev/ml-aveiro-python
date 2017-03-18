@@ -92,3 +92,9 @@ matrixZ = np.matrix.transpose(matrixX)
 # find the determinant of a matrix
 det = np.linalg.det(matrixX)
 ```
+
+## Solving Linear Regression problem using Python 
+
+### Setuping matplotlib
+[Matplotlib is a Python 2D plotting library]() we are going to use to display our data. In order to install it, we will use pip again, so just run `pip install matplotlib`. 
+
