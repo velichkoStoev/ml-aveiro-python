@@ -96,5 +96,8 @@ det = np.linalg.det(matrixX)
 ## Solving Linear Regression problem using Python 
 
 ### Setuping matplotlib
-[Matplotlib is a Python 2D plotting library]() we are going to use to display our data. In order to install it, we will use pip again, so just run `pip install matplotlib`. 
+[Matplotlib is a Python 2D plotting library]() we are going to use to display our data. In order to install it, we will use pip again, so just run `pip install matplotlib`.
+
+### Working on the task
+Download the `data.txt` and `linearregression.py` files and complete the code. 
 
