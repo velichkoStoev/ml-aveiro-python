@@ -104,7 +104,7 @@ det = np.linalg.det(matrixX)
 First, you need to download the starter code to the directory where you wish to complete the exercise. 
 
 ** Files included **
-* `linearregression.py` - Python script that guides you through the exercise (the main program)
+* `linearregression1var.py` - Python script that guides you through the exercise (the main program)
 * `data.txt` - Training dataset
 
 Let's say that you want to open a new store and you are considering different cities for the opening. You have already collected some data you want to use. In the first part of the exercise you are going to implement a linear regression model that is going to help you evaluate the parameters of a function that predicts profits for the new store. 
