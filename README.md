@@ -109,10 +109,15 @@ First, you need to download the starter code to the directory where you wish to 
 
 Let's say that you want to open a new store and you are considering different cities for the opening. You have already collected some data you want to use. In the first part of the exercise you are going to implement a linear regression model that is going to help you evaluate the parameters of a function that predicts profits for the new store. 
 
-1. Load and visualize the data
-The file `data.txt` contains the data we have so far. The first column is the population of the city and the second column is the profit of having a store in that city. A negative value for profit indicates a loss. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a scatter plot in order to visualize the data. 
+1. **Load and visualize the data**   
+The file `data.txt` contains the data we have so far. The first column is the population of the city and the second column is the profit of having a store in that city. A negative value for profit indicates a loss. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a scatter plot in order to visualize the data. It should look something like that:
 
-2. Cost function and Gradient descent
+<img src="http://i67.tinypic.com/11j99pj.png" width="400" alt="Scatter plot">
 
+2. **Cost function and Gradient descent**  
+We can fit our linear regression parameters to our dataset using gradient descent. The parameters of your model are the θ values. These are the values you will adjust to minimize cost J(θ). One way to do it is to use the batch gradient descent algorithm. In batch gradient, each iteration performs the update. With each step of gradient  descent, your parameters θ, come close to the optimal values that will achieve the lowest cost J. For our initial inputs we start with our initial fitting parameters θ, our data and add another dimmension to our data  to accommodate the θo intercept term. As also our learning rate alpha to 0.01.
 
-
+3. **Predictions**
+Predict values for population sizes of 35 000 and 70 000 and plot the values using scatter plot. It should look something like that:
+<img src="http://i67.tinypic.com/anefsj.png" width="400" alt="Scatter plot">
+ 
