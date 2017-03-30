@@ -98,6 +98,21 @@ det = np.linalg.det(matrixX)
 ### Setuping matplotlib
 [Matplotlib is a Python 2D plotting library]() we are going to use to display our data. In order to install it, we will use pip again, so just run `pip install matplotlib`.
 
-### Working on the task
-Download the `data.txt` and `linearregression.py` files and complete the code. 
+### Exercises
+
+**Objective:** Impelement linear regression and get to see how it works on data.
+First, you need to download the starter code to the directory where you wish to complete the exercise. 
+
+** Files included **
+* `linearregression.py` - Python script that guides you through the exercise (the main program)
+* `data.txt` - Training dataset
+
+Let's say that you want to open a new store and you are considering different cities for the opening. You have already collected some data you want to use. In the first part of the exercise you are going to implement a linear regression model that is going to help you evaluate the parameters of a function that predicts profits for the new store. 
+
+1. Load and visualize the data
+The file `data.txt` contains the data we have so far. The first column is the population of the city and the second column is the profit of having a store in that city. A negative value for profit indicates a loss. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a scatter plot in order to visualize the data. 
+
+2. Cost function and Gradient descent
+
+
 
