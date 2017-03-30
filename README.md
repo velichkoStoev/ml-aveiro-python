@@ -117,7 +117,7 @@ The file `data.txt` contains the data we have so far. The first column is the po
 2. **Cost function and Gradient descent**  
 We can fit our linear regression parameters to our dataset using gradient descent. The parameters of your model are the θ values. These are the values you will adjust to minimize cost J(θ). One way to do it is to use the batch gradient descent algorithm. In batch gradient, each iteration performs the update. With each step of gradient  descent, your parameters θ, come close to the optimal values that will achieve the lowest cost J. For our initial inputs we start with our initial fitting parameters θ, our data and add another dimmension to our data  to accommodate the θo intercept term. As also our learning rate alpha to 0.01.
 
-3. **Predictions**
+3. **Predictions**  
 Predict values for population sizes of 35 000 and 70 000 and plot the values using scatter plot. It should look something like that:
 <img src="http://i67.tinypic.com/anefsj.png" width="400" alt="Scatter plot">
  
