@@ -103,7 +103,7 @@ det = np.linalg.det(matrixX)
 **Objective:** Impelement linear regression and get to see how it works on data.
 First, you need to download the starter code to the directory where you wish to complete the exercise. 
 
-** Files included **
+**Files included**
 * `linearregression1var.py` - Python script that guides you through the exercise (the main program)
 * `data.txt` - Training dataset
 
