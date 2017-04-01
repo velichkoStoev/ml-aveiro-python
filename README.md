@@ -116,7 +116,7 @@ First, you need to download the starter code to the directory where you wish to 
 
  The file `data.txt` contains the data we have so far. The first column is the population of the city and the second column is the profit of having a store in that city. A negative value for profit indicates a loss. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a scatter plot in order to visualize the data. It should look something like that:  
 
-<img src="http://i67.tinypic.com/11j99pj.png" width="400" alt="Scatter plot">
+ <img src="http://i67.tinypic.com/11j99pj.png" width="400" alt="Scatter plot">
 
 2. **Cost function and Gradient descent**  
 
@@ -126,7 +126,7 @@ First, you need to download the starter code to the directory where you wish to 
 
  Predict values for population sizes of 35 000 and 70 000 and plot the values using scatter plot. It should look something like that:  
 
-<img src="http://i67.tinypic.com/anefsj.png" width="400" alt="Scatter plot">
+ <img src="http://i67.tinypic.com/anefsj.png" width="400" alt="Scatter plot">
 
 #### Task 2 - Linear Regression with multiple variables
 
@@ -141,7 +141,7 @@ First, you need to download the starter code to the directory where you wish to 
 
  Our training set of housing prices in Recife, Pernambuco, Brazil are formed by three columns  (three variables). The first column is the size of the house (in square feet), the second column is the number of bedrooms, and the third column is the price of the house. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a 3d model in order to visualize the data. It should look something like that:  
  
-<img src="http://i.imgur.com/Id0PlUd.png" width="400" alt="3d model">
+ <img src="http://i.imgur.com/Id0PlUd.png" width="400" alt="3d model">
 
 2. **Feature normalization**  
 
@@ -154,8 +154,7 @@ First, you need to download the starter code to the directory where you wish to 
 
  Previously, you implemented gradient descent on a univariate regression problem. The only difference now is that there is one more feature in the matrix X. The hypothesis function and the batch gradient descent update rule remain unchanged. Complete the code in the `compute_cost` and `gradient_descent` functions. If you plot `J_History` values over the iterations, you will see that the convergence is decreasing over the iterations:  
 
-<img src="http://i.imgur.com/flpkT6N.png" width="400" alt="3d model">
-
+ <img src="http://i.imgur.com/flpkT6N.png" width="400" alt="3d model">
 
 4. **Predictions**  
 
