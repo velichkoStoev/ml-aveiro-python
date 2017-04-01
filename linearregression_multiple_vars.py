@@ -102,7 +102,7 @@ x, mean_r, std_r = feature_normalize(X)
 
 # ===================
 
-# == Task 2 ===================
+# == Task 3 ===================
 
 #Add a column of ones to X (interception data)
 it = 
@@ -126,7 +126,7 @@ show()
 
 # ===================
 
-# == Task 3 ===================
+# == Task 4 ===================
 
 #Predict the price of a 1650 sq-ft 3 br house
 price = 
