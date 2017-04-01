@@ -110,21 +110,21 @@ First, you need to download the starter code to the directory where you wish to 
 * `linearregression_single_var.py` - Python script that guides you through the exercise (the main program)
 * `data.txt` - Training dataset
 
-Let's say that you want to open a new store and you are considering different cities for the opening. You have already collected some data you want to use. In the first part of the exercise you are going to implement a linear regression model that is going to help you evaluate the parameters of a function that predicts profits for the new store. 
+ Let's say that you want to open a new store and you are considering different cities for the opening. You have already collected some data you want to use. In the first part of the exercise you are going to implement a linear regression model that is going to help you evaluate the parameters of a function that predicts profits for the new store. 
 
 1. **Load and visualize the data**   
 
-The file `data.txt` contains the data we have so far. The first column is the population of the city and the second column is the profit of having a store in that city. A negative value for profit indicates a loss. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a scatter plot in order to visualize the data. It should look something like that:  
+ The file `data.txt` contains the data we have so far. The first column is the population of the city and the second column is the profit of having a store in that city. A negative value for profit indicates a loss. Load the information into the `data` variable and initialize `X` and `y` afterwards. We will create a scatter plot in order to visualize the data. It should look something like that:  
 
 <img src="http://i67.tinypic.com/11j99pj.png" width="400" alt="Scatter plot">
 
 2. **Cost function and Gradient descent**  
 
-We can fit our linear regression parameters to our dataset using gradient descent. The parameters of your model are the θ values. These are the values you will adjust to minimize cost J(θ). One way to do it is to use the batch gradient descent algorithm. In batch gradient, each iteration performs the update. With each step of gradient  descent, your parameters θ, come close to the optimal values that will achieve the lowest cost J. For our initial inputs we start with our initial fitting parameters θ, our data and add another dimmension to our data  to accommodate the θo intercept term. As also our learning rate alpha to 0.01. Complete the code in the `compute_cost` and `gradient_descent` functions.  
+ We can fit our linear regression parameters to our dataset using gradient descent. The parameters of your model are the θ values. These are the values you will adjust to minimize cost J(θ). One way to do it is to use the batch gradient descent algorithm. In batch gradient, each iteration performs the update. With each step of gradient  descent, your parameters θ, come close to the optimal values that will achieve the lowest cost J. For our initial inputs we start with our initial fitting parameters θ, our data and add another dimmension to our data  to accommodate the θo intercept term. As also our learning rate alpha to 0.01. Complete the code in the `compute_cost` and `gradient_descent` functions.  
 
 3. **Predictions**  
 
-Predict values for population sizes of 35 000 and 70 000 and plot the values using scatter plot. It should look something like that:  
+ Predict values for population sizes of 35 000 and 70 000 and plot the values using scatter plot. It should look something like that:  
 
 <img src="http://i67.tinypic.com/anefsj.png" width="400" alt="Scatter plot">
 
@@ -135,7 +135,7 @@ Predict values for population sizes of 35 000 and 70 000 and plot the values usi
 * `linearregression_multiple_vars.py` - Python script that guides you through the exercise (the main program)
 * `data2.txt` - Training dataset
 
-Suppose you are selling your house and you want to know what a good market price would be. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
+ Suppose you are selling your house and you want to know what a good market price would be. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
 
 1. **Load and visualize the data**  
 
@@ -145,19 +145,18 @@ Suppose you are selling your house and you want to know what a good market price
 
 2. **Feature normalization**  
 
-Before going directly to the linear regression it is important to analyze our data. By looking at our 3d model, note that house sizes are about 1000 times the number of bedrooms. When features differ by orders of magnitude, it is important to perfom a feature scaling that can make gradient descent converge much more quickly. The basic steps are:  
+ Before going directly to the linear regression it is important to analyze our data. By looking at our 3d model, note that house sizes are about 1000 times the number of bedrooms. When features differ by orders of magnitude, it is important to perfom a feature scaling that can make gradient descent converge much more quickly. The basic steps are:  
   * Subtract the mean value of each feature from the dataset.  
   * After subtracting the mean, additionally scale (divide) the feature values by their respective “standard deviations.”  
-The standard deviation is a way of measuring how much variation there is in the range of values of a particular feature (most data points will lie within ±2 standard deviations of the mean); this is an alternative to taking the range of values (max-min).
-Complete the `feature_normalize` function in order to normalize your data. 
+ The standard deviation is a way of measuring how much variation there is in the range of values of a particular feature (most data points will lie within ±2 standard deviations of the mean); this is an alternative to taking the range of values (max-min). Complete the `feature_normalize` function in order to normalize your data. 
 
 3. **Cost function and Gradient Descent**  
 
-Previously, you implemented gradient descent on a univariate regression problem. The only difference now is that there is one more feature in the matrix X. The hypothesis function and the batch gradient descent update rule remain unchanged. Complete the code in the `compute_cost` and `gradient_descent` functions. If you plot `J_History` values over the iterations, you will see that the convergence is decreasing over the iterations:  
+ Previously, you implemented gradient descent on a univariate regression problem. The only difference now is that there is one more feature in the matrix X. The hypothesis function and the batch gradient descent update rule remain unchanged. Complete the code in the `compute_cost` and `gradient_descent` functions. If you plot `J_History` values over the iterations, you will see that the convergence is decreasing over the iterations:  
 
 <img src="http://i.imgur.com/flpkT6N.png" width="400" alt="3d model">
 
 
 4. **Predictions**  
 
-Use the computed theta values to predict the price of a 1650 sq-ft house with 3 bedrooms. You should expect a value similar to 183865.197988. 
+ Use the computed theta values to predict the price of a 1650 sq-ft house with 3 bedrooms. You should expect a value similar to 183865.197988. 
