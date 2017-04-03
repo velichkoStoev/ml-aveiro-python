@@ -88,9 +88,9 @@ print(theta)
 
 #Predict values for population sizes of 35,000 and 70,000
 predict1 = 
-print 'For population = 35,000, we predict a profit of %f' % (predict1 * 10000)
+print('For population = 35,000, we predict a profit of %f' % (predict1 * 10000))
 predict2 = 
-print 'For population = 70,000, we predict a profit of %f' % (predict2 * 10000)
+print('For population = 70,000, we predict a profit of %f' % (predict2 * 10000))
 
 #Plot the results
 result = it.dot(theta).flatten()
