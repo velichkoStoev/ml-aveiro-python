@@ -4,7 +4,7 @@ from pylab import scatter, show, title, xlabel, ylabel, plot, contour
 
 def compute_cost(X, y, theta):
 	# get the number of training examples
-	m = 
+	m = y.size
 	
 	# calculate the predictions and the errors
 	predictions = 
@@ -35,8 +35,8 @@ def gradient_descent(X, y, theta, alpha, num_iters):
 		errors_x1 = 
 		errors_x2 = 
 
-		theta[0][0] = 
-		theta[1][0] = 
+		theta[0, 0] = 
+		theta[1, 0] = 
 
 		J_history[i, 0] = 
 	
