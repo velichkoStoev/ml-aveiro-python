@@ -1,6 +1,6 @@
 # Machine Learning - Universidade de Aveiro - Python 
 
-The following document is a short guide I had to prepare for [Prof. Petia Georgieva](http://sweet.ua.pt/petia/PG_Eng_Aveiro.htm)'s Machine Learning class in University of Aveiro as a part of my Erasmus practice. The source of the examples is [this blog post by Marcel Caraciolo](http://aimotion.blogspot.pt/2011/10/machine-learning-with-python-linear.html).
+The following document is a short guide I had to prepare for [Prof. Petia Georgieva](http://sweet.ua.pt/petia/PG_Eng_Aveiro.htm)'s Machine Learning class at University of Aveiro as a part of my Erasmus practice. The source of the examples is [this blog post by Marcel Caraciolo](http://aimotion.blogspot.pt/2011/10/machine-learning-with-python-linear.html).
 
 ##  Setup
 
@@ -8,7 +8,7 @@ The following document is a short guide I had to prepare for [Prof. Petia Georgi
 Python 3.6 is the current latest release.
 
 #### For Windows and Mac OS users
-Check [this page](https://www.python.org/downloads/release/python-360/) (the download links are in the botton of the page). Download the appropriate (the executable installer for Windows is a good one) installer and run it (during the installation select the `Add Python to PATH` option).
+Check [this page](https://www.python.org/downloads/release/python-360/) (the download links are in the botton of the page). Download the appropriate installer (the executable installer for Windows is a good one) and run it (during the installation select the `Add Python to PATH` option).
 
 
 #### For Linux users 
