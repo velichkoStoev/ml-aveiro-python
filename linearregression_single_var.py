@@ -32,6 +32,7 @@ def gradient_descent(X, y, theta, alpha, num_iters):
 
 		predictions = 
 
+		# compute the gradients
 		errors_x1 = 
 		errors_x2 = 
 
