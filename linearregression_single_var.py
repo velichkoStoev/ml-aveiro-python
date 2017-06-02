@@ -18,7 +18,7 @@ def compute_cost(X, y, theta):
 def gradient_descent(X, y, theta, alpha, num_iters):
 	'''
     Performs gradient descent to learn theta
-    by taking num_items gradient steps with learning
+    by taking num_iters gradient steps with learning
     rate alpha
     '''
 

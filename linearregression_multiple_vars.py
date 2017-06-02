@@ -51,7 +51,8 @@ def gradient_descent(X, y, theta, alpha, num_iters):
             temp = X[:, it]
             temp.shape = (m, 1)
 
-            errors_x1 = 
+			# compute the gradient
+            gradients = 
 
             theta[it][0] = 
 
